@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+@media print{
+	body{
+		background-color: #FFFFFF;
+		color: #010013; 
+		margin: 0;
+	}
+	
+	img{
+		display:none; 
+	}
+	
+	iframe{
+		display:none;
+	}
+	
+	
+	@page{
+		margin:2cm;
+	}
+	
+	nav{
+		display:none;
+	}
+	
+	footer{
+		display:none;
+}
+}

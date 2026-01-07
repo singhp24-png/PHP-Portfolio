@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+/* Portrait Mode and Landscape Mode (Phones)*/
+@media only screen and (min-width: 500px) and (max-width: 1200px){
+
+  body
+  {
+  	font-size: 26px;
+  }
+  
+  h2
+  {
+  	font-size: 34px;
+  }
+  
+  /* Footer (Readability)*/
+  h5{
+  	font-size: 26px;
+  }
+
+  /* Fixes the navigation bar*/ 
+  nav a {
+      font-size: 42px;
+  }
+  
+  img{
+  	  display:none;
+  }
+}
+	
+
+	
